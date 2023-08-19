@@ -1,0 +1,2012 @@
+{
+  "partCategories": [
+    {
+      "name": "Other",
+      "shortName": "OT",
+      "parent": "",
+      "costspecification": "XXX",
+      "color": "#C5672A"
+    },
+    {
+      "name": "Warm system material",
+      "shortName": "WS",
+      "parent": "",
+      "costspecification": "SYS",
+      "color": "#0C4EE8"
+    },
+    {
+      "name": "Filling",
+      "shortName": "FI",
+      "parent": "",
+      "costspecification": "ZFL",
+      "color": "#D3CDFB"
+    },
+    {
+      "name": "Aluminium construction profile",
+      "shortName": "CP",
+      "parent": "",
+      "costspecification": "MALHZ",
+      "color": "#30DE08"
+    },
+    {
+      "name": "Facade panel / cassette",
+      "shortName": "FP",
+      "parent": "",
+      "costspecification": "ZKF",
+      "color": "#A12EED"
+    },
+    {
+      "name": "Steel construction",
+      "shortName": "ST",
+      "parent": "",
+      "costspecification": "ZSB",
+      "color": "#44365C"
+    },
+    {
+      "name": "Connection",
+      "shortName": "CO",
+      "parent": "",
+      "costspecification": "MAS",
+      "color": "#FCF169"
+    },
+    {
+      "name": "Sheet construction",
+      "shortName": "SH",
+      "parent": "",
+      "costspecification": "ZALBL",
+      "color": "#54E9B2"
+    },
+    {
+      "name": "Under construction",
+      "shortName": "UK",
+      "parent": "",
+      "costspecification": "MUK",
+      "color": "#878791"
+    },
+    {
+      "name": "External service",
+      "shortName": "ES",
+      "parent": "",
+      "costspecification": "F",
+      "color": "#C61182"
+    },
+    {
+      "name": "Wage",
+      "shortName": "WA",
+      "parent": "",
+      "costspecification": "L",
+      "color": "#1B918F"
+    },
+    {
+      "name": "Coating",
+      "shortName": "CT",
+      "parent": "",
+      "costspecification": "M",
+      "color": "#09B9FE"
+    },
+    {
+      "name": "Profile",
+      "shortName": "PR",
+      "parent": "Warm system material",
+      "costspecification": "MSY",
+      "color": "#FB0622"
+    },
+    {
+      "name": "Accessoires",
+      "shortName": "AC",
+      "parent": "Warm system material",
+      "costspecification": "MZU",
+      "color": "#BDD206"
+    },
+    {
+      "name": "Mounting",
+      "shortName": "MO",
+      "parent": "Warm system material",
+      "costspecification": "MBS",
+      "color": "#7AE153"
+    },
+    {
+      "name": "Window",
+      "shortName": "WI",
+      "parent": "Warm system material",
+      "costspecification": "ZFE",
+      "color": "#F953B8"
+    },
+    {
+      "name": "Door",
+      "shortName": "DO",
+      "parent": "Warm system material",
+      "costspecification": "ZTR",
+      "color": "#127029"
+    },
+    {
+      "name": "Facade",
+      "shortName": "FA",
+      "parent": "Warm system material",
+      "costspecification": "ZFA",
+      "color": "#6F9706"
+    },
+    {
+      "name": "Glass",
+      "shortName": "Gl",
+      "parent": "Filling",
+      "costspecification": "ZFLGL",
+      "color": "#C0B153"
+    },
+    {
+      "name": "Glass panel",
+      "shortName": "GP",
+      "parent": "Filling",
+      "costspecification": "ZFLGP",
+      "color": "#7575E0"
+    },
+    {
+      "name": "Panel",
+      "shortName": "PN",
+      "parent": "Filling",
+      "costspecification": "ZFLPA",
+      "color": "#360C03"
+    },
+    {
+      "name": "Other",
+      "shortName": "OT",
+      "parent": "Filling",
+      "costspecification": "ZFLSO",
+      "color": "#20E064"
+    },
+    {
+      "name": "Standard Aluminium",
+      "shortName": "SA",
+      "parent": "Aluminium construction profile",
+      "costspecification": "MALHZ",
+      "color": "#FFA8A7"
+    },
+    {
+      "name": "Construction profile",
+      "shortName": "CP",
+      "parent": "Aluminium construction profile",
+      "costspecification": "MALHZ",
+      "color": "#941308"
+    },
+    {
+      "name": "Special profile",
+      "shortName": "SP",
+      "parent": "Aluminium construction profile",
+      "costspecification": "MALHZ",
+      "color": "#4000B8"
+    },
+    {
+      "name": "Other",
+      "shortName": "OT",
+      "parent": "Aluminium construction profile",
+      "costspecification": "MALHZ",
+      "color": "#96C0D6"
+    },
+    {
+      "name": "Aluminium",
+      "shortName": "AL",
+      "parent": "Facade panel / cassette",
+      "costspecification": "ZKFAL",
+      "color": "#BEE195"
+    },
+    {
+      "name": "Glass / Natural stone composite panel",
+      "shortName": "GN",
+      "parent": "Facade panel / cassette",
+      "costspecification": "ZKFVP",
+      "color": "#7B339F"
+    },
+    {
+      "name": "Concrete",
+      "shortName": "CN",
+      "parent": "Facade panel / cassette",
+      "costspecification": "ZKFBT",
+      "color": "#FD9803"
+    },
+    {
+      "name": "Other",
+      "shortName": "OT",
+      "parent": "Facade panel / cassette",
+      "costspecification": "ZKFSO",
+      "color": "#6DF2F7"
+    },
+    {
+      "name": "Structural steel construction",
+      "shortName": "SC",
+      "parent": "Steel construction",
+      "costspecification": "ZSB",
+      "color": "#74FE0E"
+    },
+    {
+      "name": "Railing / Fall protection",
+      "shortName": "RF",
+      "parent": "Steel construction",
+      "costspecification": "ZGEL",
+      "color": "#4EACFC"
+    },
+    {
+      "name": "Mullion transom",
+      "shortName": "MT",
+      "parent": "Steel construction",
+      "costspecification": "ZSPR",
+      "color": "#1D3C97"
+    },
+    {
+      "name": "Standard Steel",
+      "shortName": "SS",
+      "parent": "Steel construction",
+      "costspecification": "MSTHZ",
+      "color": "#C75D73"
+    },
+    {
+      "name": "Standard stainless steel",
+      "shortName": "ST",
+      "parent": "Steel construction",
+      "costspecification": "MESHZ",
+      "color": "#E188EC"
+    },
+    {
+      "name": "Seal",
+      "shortName": "SE",
+      "parent": "Connection",
+      "costspecification": "MAD",
+      "color": "#1604F6"
+    },
+    {
+      "name": "Insulation",
+      "shortName": "IN",
+      "parent": "Connection",
+      "costspecification": "MWD",
+      "color": "#0CF0AD"
+    },
+    {
+      "name": "PVC-block",
+      "shortName": "PB",
+      "parent": "Connection",
+      "costspecification": "MPVC",
+      "color": "#40B53E"
+    },
+    {
+      "name": "Aluminium",
+      "shortName": "AL",
+      "parent": "Sheet construction",
+      "costspecification": "ZALBL",
+      "color": "#5334F0"
+    },
+    {
+      "name": "Steel",
+      "shortName": "ST",
+      "parent": "Sheet construction",
+      "costspecification": "ZSTBL",
+      "color": "#993D4E"
+    },
+    {
+      "name": "Stainless steel",
+      "shortName": "SS",
+      "parent": "Sheet construction",
+      "costspecification": "ZESTBL",
+      "color": "#747052"
+    },
+    {
+      "name": "Screws",
+      "shortName": "SC",
+      "parent": "Under construction",
+      "costspecification": "MUK",
+      "color": "#57B68F"
+    },
+    {
+      "name": "Pin",
+      "shortName": "PN",
+      "parent": "Under construction",
+      "costspecification": "MUK",
+      "color": "#CE0BCD"
+    },
+    {
+      "name": "Washer",
+      "shortName": "WA",
+      "parent": "Under construction",
+      "costspecification": "MUK",
+      "color": "#FFEED3"
+    },
+    {
+      "name": "Nut",
+      "shortName": "NT",
+      "parent": "Under construction",
+      "costspecification": "MUK",
+      "color": "#5C017E"
+    },
+    {
+      "name": "Rivet",
+      "shortName": "RI",
+      "parent": "Under construction",
+      "costspecification": "MUK",
+      "color": "#6D4D15"
+    },
+    {
+      "name": "Dowels",
+      "shortName": "DW",
+      "parent": "Under construction",
+      "costspecification": "MUK",
+      "color": "#8100D3"
+    },
+    {
+      "name": "System element",
+      "shortName": "SE",
+      "parent": "Under construction",
+      "costspecification": "MUK",
+      "color": "#07B52D"
+    },
+    {
+      "name": "Sheet metal construction",
+      "shortName": "SM",
+      "parent": "Under construction",
+      "costspecification": "MUK",
+      "color": "#CD8CB4"
+    },
+    {
+      "name": "Cold Facade",
+      "shortName": "CF",
+      "parent": "Under construction",
+      "costspecification": "ZUK",
+      "color": "#09215C"
+    },
+    {
+      "name": "Sun protection",
+      "shortName": "SP",
+      "parent": "External service",
+      "costspecification": "FSON",
+      "color": "#1F89DC"
+    },
+    {
+      "name": "Automatic elements",
+      "shortName": "AE",
+      "parent": "External service",
+      "costspecification": "FAT",
+      "color": "#B3FF62"
+    },
+    {
+      "name": "RWA/NRWG",
+      "shortName": "RN",
+      "parent": "External service",
+      "costspecification": "FRWA",
+      "color": "#F61F60"
+    },
+    {
+      "name": "Gates",
+      "shortName": "GA",
+      "parent": "External service",
+      "costspecification": "FTOR",
+      "color": "#AE420A"
+    },
+    {
+      "name": "Construction site equipment",
+      "shortName": "CE",
+      "parent": "External service",
+      "costspecification": "FBE",
+      "color": "#FFD528"
+    },
+    {
+      "name": "Measurement",
+      "shortName": "ME",
+      "parent": "External service",
+      "costspecification": "FAU",
+      "color": "#26F4E8"
+    },
+    {
+      "name": "Roof",
+      "shortName": "RO",
+      "parent": "External service",
+      "costspecification": "FDA",
+      "color": "#AB9911"
+    },
+    {
+      "name": "Frame",
+      "shortName": "FR",
+      "parent": "External service",
+      "costspecification": "FGT",
+      "color": "#527EB6"
+    },
+    {
+      "name": "Crane",
+      "shortName": "CR",
+      "parent": "External service",
+      "costspecification": "FKR",
+      "color": "#1B585F"
+    },
+    {
+      "name": "Assembly",
+      "shortName": "AS",
+      "parent": "External service",
+      "costspecification": "FMG",
+      "color": "#FF557E"
+    },
+    {
+      "name": "Cleaning",
+      "shortName": "CL",
+      "parent": "External service",
+      "costspecification": "FRG",
+      "color": "#D4C5C2"
+    },
+    {
+      "name": "Sectional doors",
+      "shortName": "SD",
+      "parent": "External service",
+      "costspecification": "FSTK",
+      "color": "#790A38"
+    },
+    {
+      "name": "Technology",
+      "shortName": "TE",
+      "parent": "External service",
+      "costspecification": "FTB",
+      "color": "#F933FD"
+    },
+    {
+      "name": "Transport",
+      "shortName": "TR",
+      "parent": "External service",
+      "costspecification": "FTR",
+      "color": "#FA1BA0"
+    },
+    {
+      "name": "Sealing",
+      "shortName": "SE",
+      "parent": "External service",
+      "costspecification": "FVS",
+      "color": "#95C081"
+    },
+    {
+      "name": "WDVS",
+      "shortName": "WD",
+      "parent": "External service",
+      "costspecification": "FWDVS",
+      "color": "#7EF985"
+    },
+    {
+      "name": "Dismantling",
+      "shortName": "DI",
+      "parent": "Wage",
+      "costspecification": "LDM",
+      "color": "#AE29AC"
+    },
+    {
+      "name": "Assembly",
+      "shortName": "AS",
+      "parent": "Wage",
+      "costspecification": "LM",
+      "color": "#F96640"
+    },
+    {
+      "name": "Production",
+      "shortName": "PR",
+      "parent": "Wage",
+      "costspecification": "LF",
+      "color": "#D4F631"
+    },
+    {
+      "name": "General",
+      "shortName": "GE",
+      "parent": "Wage",
+      "costspecification": "L",
+      "color": "#B4093E"
+    },
+    {
+      "name": "Other",
+      "shortName": "OT",
+      "parent": "Coating",
+      "costspecification": "MSO",
+      "color": "#31AEB4"
+    },
+    {
+      "name": "Metal sheet surface",
+      "shortName": "MS",
+      "parent": "Coating",
+      "costspecification": "MOFBV",
+      "color": "#E48F64"
+    },
+    {
+      "name": "Surface system",
+      "shortName": "SU",
+      "parent": "Coating",
+      "costspecification": "MOFS",
+      "color": "#8EFEC2"
+    },
+    {
+      "name": "Under construction surface",
+      "shortName": "US",
+      "parent": "Coating",
+      "costspecification": "MOFUK",
+      "color": "#82BE27"
+    },
+    {
+      "name": "Post/Bar",
+      "shortName": "PB",
+      "parent": "Profile",
+      "costspecification": "MSY",
+      "color": "#020334"
+    },
+    {
+      "name": "Post",
+      "shortName": "PO",
+      "parent": "Profile",
+      "costspecification": "MSY",
+      "color": "#D42322"
+    },
+    {
+      "name": "Bar",
+      "shortName": "BA",
+      "parent": "Profile",
+      "costspecification": "MSY",
+      "color": "#A67255"
+    },
+    {
+      "name": "Special pilaster strips",
+      "shortName": "SL",
+      "parent": "Profile",
+      "costspecification": "MSY",
+      "color": "#5F8D73"
+    },
+    {
+      "name": "Frame / Sash / Glazing",
+      "shortName": "BF",
+      "parent": "Profile",
+      "costspecification": "MSY",
+      "color": "#0916B5"
+    },
+    {
+      "name": "Corner connecter",
+      "shortName": "CC",
+      "parent": "Accessoires",
+      "costspecification": "MZU",
+      "color": "#C25DC9"
+    },
+    {
+      "name": "T-connecter",
+      "shortName": "TC",
+      "parent": "Accessoires",
+      "costspecification": "MZU",
+      "color": "#EBA92E"
+    },
+    {
+      "name": "Insulator",
+      "shortName": "IN",
+      "parent": "Accessoires",
+      "costspecification": "MZU",
+      "color": "#287C00"
+    },
+    {
+      "name": "Central sealing",
+      "shortName": "CS",
+      "parent": "Accessoires",
+      "costspecification": "MZU",
+      "color": "#F8ADDD"
+    },
+    {
+      "name": "Glass system sealing",
+      "shortName": "GS",
+      "parent": "Accessoires",
+      "costspecification": "MZU",
+      "color": "#0DA45E"
+    },
+    {
+      "name": "Glass inner sealing",
+      "shortName": "GI",
+      "parent": "Accessoires",
+      "costspecification": "MZU",
+      "color": "#A0EBF2"
+    },
+    {
+      "name": "Other",
+      "shortName": "OT",
+      "parent": "Mounting",
+      "costspecification": "MBS",
+      "color": "#032E0A"
+    },
+    {
+      "name": "Handle",
+      "shortName": "HA",
+      "parent": "Mounting",
+      "costspecification": "MBS",
+      "color": "#56FD39"
+    },
+    {
+      "name": "Opening limiter",
+      "shortName": "OL",
+      "parent": "Mounting",
+      "costspecification": "MBS",
+      "color": "#FCFD01"
+    },
+    {
+      "name": "Locking bars",
+      "shortName": "LB",
+      "parent": "Mounting",
+      "costspecification": "MBS",
+      "color": "#A296F6"
+    },
+    {
+      "name": "Aluminuim window",
+      "shortName": "AW",
+      "parent": "Window",
+      "costspecification": "ZFEAL",
+      "color": "#ABFC1B"
+    },
+    {
+      "name": "Wood window",
+      "shortName": "WW",
+      "parent": "Window",
+      "costspecification": "ZFEHO",
+      "color": "#03FF23"
+    },
+    {
+      "name": "Plastic window",
+      "shortName": "PW",
+      "parent": "Window",
+      "costspecification": "ZFEKS",
+      "color": "#3B814A"
+    },
+    {
+      "name": "Dummy element",
+      "shortName": "DE",
+      "parent": "Window",
+      "costspecification": "ZFEBE",
+      "color": "#025FBA"
+    },
+    {
+      "name": "Glass railing",
+      "shortName": "GR",
+      "parent": "Window",
+      "costspecification": "ZFEGB",
+      "color": "#51F270"
+    },
+    {
+      "name": "Aluminuim door",
+      "shortName": "AD",
+      "parent": "Door",
+      "costspecification": "ZTRAL",
+      "color": "#3C6021"
+    },
+    {
+      "name": "Fire protection door",
+      "shortName": "FD",
+      "parent": "Door",
+      "costspecification": "ZTRBS",
+      "color": "#4B352D"
+    },
+    {
+      "name": "Steel sheet door",
+      "shortName": "SD",
+      "parent": "Door",
+      "costspecification": "ZTRST",
+      "color": "#899A48"
+    },
+    {
+      "name": "PR-Facade",
+      "shortName": "PF",
+      "parent": "Facade",
+      "costspecification": "ZFAPR",
+      "color": "#270484"
+    },
+    {
+      "name": "SG-Facade",
+      "shortName": "SG",
+      "parent": "Facade",
+      "costspecification": "ZFASG",
+      "color": "#5F9931"
+    },
+    {
+      "name": "Element facade",
+      "shortName": "EF",
+      "parent": "Facade",
+      "costspecification": "ZFAEL",
+      "color": "#09B797"
+    },
+    {
+      "name": "Add-on construction wood",
+      "shortName": "AW",
+      "parent": "Facade",
+      "costspecification": "ZFAAH",
+      "color": "#EF5C0D"
+    },
+    {
+      "name": "Add-on construction steel",
+      "shortName": "AS",
+      "parent": "Facade",
+      "costspecification": "ZFAAS",
+      "color": "#2637C4"
+    },
+    {
+      "name": "Fire protection facade",
+      "shortName": "FF",
+      "parent": "Facade",
+      "costspecification": "ZFABS",
+      "color": "#6DCBE2"
+    },
+    {
+      "name": "Roof sytem element",
+      "shortName": "RE",
+      "parent": "Facade",
+      "costspecification": "ZFADA",
+      "color": "#F8BE7B"
+    },
+    {
+      "name": "Canopy system element",
+      "shortName": "CS",
+      "parent": "Facade",
+      "costspecification": "ZFAVD",
+      "color": "#6B587B"
+    },
+    {
+      "name": "L",
+      "shortName": "SL",
+      "parent": "Standard Aluminium",
+      "costspecification": "MALHZ",
+      "color": "#405679"
+    },
+    {
+      "name": "U",
+      "shortName": "SU",
+      "parent": "Standard Aluminium",
+      "costspecification": "MALHZ",
+      "color": "#955EF6"
+    },
+    {
+      "name": "Z",
+      "shortName": "SZ",
+      "parent": "Standard Aluminium",
+      "costspecification": "MALHZ",
+      "color": "#83A9B1"
+    },
+    {
+      "name": "Rectangle",
+      "shortName": "RE",
+      "parent": "Standard Aluminium",
+      "costspecification": "MALHZ",
+      "color": "#5B46BB"
+    },
+    {
+      "name": "Round",
+      "shortName": "RO",
+      "parent": "Standard Aluminium",
+      "costspecification": "MALHZ",
+      "color": "#D02FEF"
+    },
+    {
+      "name": "T",
+      "shortName": "ST",
+      "parent": "Standard Aluminium",
+      "costspecification": "MALHZ",
+      "color": "#7BD599"
+    },
+    {
+      "name": "Hat profile",
+      "shortName": "HP",
+      "parent": "Construction profile",
+      "costspecification": "MALHZ",
+      "color": "#B68890"
+    },
+    {
+      "name": "Tulip profile",
+      "shortName": "TP",
+      "parent": "Construction profile",
+      "costspecification": "MALHZ",
+      "color": "#CDAA85"
+    },
+    {
+      "name": "Clamping profile",
+      "shortName": "CP",
+      "parent": "Construction profile",
+      "costspecification": "MALHZ",
+      "color": "#924EC2"
+    },
+    {
+      "name": "Agraffe profile",
+      "shortName": "AP",
+      "parent": "Construction profile",
+      "costspecification": "MALHZ",
+      "color": "#896D2A"
+    },
+    {
+      "name": "Traverse profile",
+      "shortName": "TP",
+      "parent": "Construction profile",
+      "costspecification": "MALHZ",
+      "color": "#3D093C"
+    },
+    {
+      "name": "F-Profile",
+      "shortName": "FP",
+      "parent": "Construction profile",
+      "costspecification": "MALHZ",
+      "color": "#7A18FC"
+    },
+    {
+      "name": "L-Profile",
+      "shortName": "LP",
+      "parent": "Construction profile",
+      "costspecification": "MALHZ",
+      "color": "#DC5AEE"
+    },
+    {
+      "name": "U-Profile",
+      "shortName": "UP",
+      "parent": "Construction profile",
+      "costspecification": "MALHZ",
+      "color": "#8C0C90"
+    },
+    {
+      "name": "U-Alho profile",
+      "shortName": "UA",
+      "parent": "Construction profile",
+      "costspecification": "MALHZ",
+      "color": "#3874F9"
+    },
+    {
+      "name": "Tekofix profile",
+      "shortName": "TX",
+      "parent": "Construction profile",
+      "costspecification": "MALHZ",
+      "color": "#63C501"
+    },
+    {
+      "name": "Alkapo profile",
+      "shortName": "AK",
+      "parent": "Construction profile",
+      "costspecification": "MALHZ",
+      "color": "#3363CE"
+    },
+    {
+      "name": "Ubeka profile",
+      "shortName": "UB",
+      "parent": "Construction profile",
+      "costspecification": "MALHZ",
+      "color": "#CB2A53"
+    },
+    {
+      "name": "Targo UBE",
+      "shortName": "TU",
+      "parent": "Construction profile",
+      "costspecification": "MALHZ",
+      "color": "#A75D9F"
+    },
+    {
+      "name": "BU2 Profile",
+      "shortName": "BU",
+      "parent": "Construction profile",
+      "costspecification": "MALHZ",
+      "color": "#670EB4"
+    },
+    {
+      "name": "System UBE",
+      "shortName": "SU",
+      "parent": "Construction profile",
+      "costspecification": "MALHZ",
+      "color": "#0890BB"
+    },
+    {
+      "name": "Siding",
+      "shortName": "SD",
+      "parent": "Aluminium",
+      "costspecification": "ZKFAL",
+      "color": "#9183C3"
+    },
+    {
+      "name": "Sheet metal cassette ",
+      "shortName": "SC",
+      "parent": "Aluminium",
+      "costspecification": "ZKFAL",
+      "color": "#632901"
+    },
+    {
+      "name": "Smooth sheet metal ",
+      "shortName": "SM",
+      "parent": "Aluminium",
+      "costspecification": "ZKFAL",
+      "color": "#5CB4BD"
+    },
+    {
+      "name": "L",
+      "shortName": "LS",
+      "parent": "Standard Steel",
+      "costspecification": "MSTHZ",
+      "color": "#3AD187"
+    },
+    {
+      "name": "U",
+      "shortName": "US",
+      "parent": "Standard Steel",
+      "costspecification": "MSTHZ",
+      "color": "#ABDE34"
+    },
+    {
+      "name": "Z",
+      "shortName": "ZS",
+      "parent": "Standard Steel",
+      "costspecification": "MSTHZ",
+      "color": "#BAABD0"
+    },
+    {
+      "name": "Rectangle",
+      "shortName": "RS",
+      "parent": "Standard Steel",
+      "costspecification": "MSTHZ",
+      "color": "#C31104"
+    },
+    {
+      "name": "Round",
+      "shortName": "RU",
+      "parent": "Standard Steel",
+      "costspecification": "MSTHZ",
+      "color": "#EEF9F8"
+    },
+    {
+      "name": "T",
+      "shortName": "TS",
+      "parent": "Standard Steel",
+      "costspecification": "MSTHZ",
+      "color": "#D33DA9"
+    },
+    {
+      "name": "H",
+      "shortName": "HS",
+      "parent": "Standard Steel",
+      "costspecification": "MSTHZ",
+      "color": "#2D39FD"
+    },
+    {
+      "name": "HEA",
+      "shortName": "HE",
+      "parent": "Standard Steel",
+      "costspecification": "MSTHZ",
+      "color": "#DA3A81"
+    },
+    {
+      "name": "IPE",
+      "shortName": "IS",
+      "parent": "Standard Steel",
+      "costspecification": "MSTHZ",
+      "color": "#29FD83"
+    },
+    {
+      "name": "L",
+      "shortName": "LS",
+      "parent": "Standard stainless steel",
+      "costspecification": "MESHZ",
+      "color": "#09E03F"
+    },
+    {
+      "name": "U",
+      "shortName": "US",
+      "parent": "Standard stainless steel",
+      "costspecification": "MESHZ",
+      "color": "#FC06F1"
+    },
+    {
+      "name": "Z",
+      "shortName": "ZS",
+      "parent": "Standard stainless steel",
+      "costspecification": "MESHZ",
+      "color": "#6CBA65"
+    },
+    {
+      "name": "Rectangle",
+      "shortName": "RS",
+      "parent": "Standard stainless steel",
+      "costspecification": "MESHZ",
+      "color": "#08D911"
+    },
+    {
+      "name": "Round",
+      "shortName": "RU",
+      "parent": "Standard stainless steel",
+      "costspecification": "MESHZ",
+      "color": "#EDED9B"
+    },
+    {
+      "name": "T",
+      "shortName": "TS",
+      "parent": "Standard stainless steel",
+      "costspecification": "MESHZ",
+      "color": "#2D6EA5"
+    },
+    {
+      "name": "H",
+      "shortName": "HS",
+      "parent": "Standard stainless steel",
+      "costspecification": "MESHZ",
+      "color": "#C6D468"
+    },
+    {
+      "name": "HEA",
+      "shortName": "HE",
+      "parent": "Standard stainless steel",
+      "costspecification": "MESHZ",
+      "color": "#FA83C7"
+    },
+    {
+      "name": "IPE",
+      "shortName": "IS",
+      "parent": "Standard stainless steel",
+      "costspecification": "MESHZ",
+      "color": "#D09B09"
+    },
+    {
+      "name": "Foil",
+      "shortName": "FO",
+      "parent": "Seal",
+      "costspecification": "MAD",
+      "color": "#480FF4"
+    },
+    {
+      "name": "Compriband",
+      "shortName": "CO",
+      "parent": "Seal",
+      "costspecification": "MAD",
+      "color": "#C1B224"
+    },
+    {
+      "name": "Sealing",
+      "shortName": "SE",
+      "parent": "Seal",
+      "costspecification": "MAD",
+      "color": "#54E31E"
+    },
+    {
+      "name": "Hard",
+      "shortName": "HA",
+      "parent": "Insulation",
+      "costspecification": "MWD",
+      "color": "#0BAC08"
+    },
+    {
+      "name": "Soft",
+      "shortName": "SO",
+      "parent": "Insulation",
+      "costspecification": "MWD",
+      "color": "#44DDF3"
+    },
+    {
+      "name": "Connection plate",
+      "shortName": "CP",
+      "parent": "Aluminium",
+      "costspecification": "ZALBL",
+      "color": "#E2D543"
+    },
+    {
+      "name": "Windowsill",
+      "shortName": "WS",
+      "parent": "Aluminium",
+      "costspecification": "ZALBL",
+      "color": "#72307A"
+    },
+    {
+      "name": "Support cladding",
+      "shortName": "SC",
+      "parent": "Aluminium",
+      "costspecification": "ZALBL",
+      "color": "#DD3603"
+    },
+    {
+      "name": "Ceiling head cladding",
+      "shortName": "CC",
+      "parent": "Aluminium",
+      "costspecification": "ZALBL",
+      "color": "#008058"
+    },
+    {
+      "name": "Attica",
+      "shortName": "AT",
+      "parent": "Aluminium",
+      "costspecification": "ZALBL",
+      "color": "#2FC8D9"
+    },
+    {
+      "name": "Sun protection box",
+      "shortName": "SP",
+      "parent": "Aluminium",
+      "costspecification": "ZALBL",
+      "color": "#E3BE08"
+    },
+    {
+      "name": "Connection panel",
+      "shortName": "CP",
+      "parent": "Aluminium",
+      "costspecification": "ZALBL",
+      "color": "#F9B253"
+    },
+    {
+      "name": "Others",
+      "shortName": "OT",
+      "parent": "Aluminium",
+      "costspecification": "ZALBL",
+      "color": "#7F35D1"
+    },
+    {
+      "name": "Trapezoidal sheet",
+      "shortName": "TS",
+      "parent": "Aluminium",
+      "costspecification": "ZALBL",
+      "color": "#2FA303"
+    },
+    {
+      "name": "Water guide profile",
+      "shortName": "WP",
+      "parent": "Aluminium",
+      "costspecification": "ZALBL",
+      "color": "#B43C2F"
+    },
+    {
+      "name": "Canopy cladding",
+      "shortName": "CC",
+      "parent": "Aluminium",
+      "costspecification": "ZALBL",
+      "color": "#AD730A"
+    },
+    {
+      "name": "Standard",
+      "shortName": "ST",
+      "parent": "Screws",
+      "costspecification": "MUK",
+      "color": "#A62370"
+    },
+    {
+      "name": "Special screws ",
+      "shortName": "SS",
+      "parent": "Screws",
+      "costspecification": "MUK",
+      "color": "#E56993"
+    },
+    {
+      "name": "Other",
+      "shortName": "OT",
+      "parent": "Screws",
+      "costspecification": "MUK",
+      "color": "#F838CF"
+    },
+    {
+      "name": "T wall bracket",
+      "shortName": "TB",
+      "parent": "Cold Facade",
+      "costspecification": "ZUK",
+      "color": "#00B9C7"
+    },
+    {
+      "name": "WB",
+      "shortName": "WB",
+      "parent": "Cold Facade",
+      "costspecification": "ZUK",
+      "color": "#D4EEC3"
+    },
+    {
+      "name": "WB extension",
+      "shortName": "WE",
+      "parent": "Cold Facade",
+      "costspecification": "ZUK",
+      "color": "#512A9A"
+    },
+    {
+      "name": "HWB consoles",
+      "shortName": "HC",
+      "parent": "Cold Facade",
+      "costspecification": "ZUK",
+      "color": "#84332F"
+    },
+    {
+      "name": "Thermal stop",
+      "shortName": "TS",
+      "parent": "Cold Facade",
+      "costspecification": "ZUK",
+      "color": "#B5378C"
+    },
+    {
+      "name": "Thermal stop US and T",
+      "shortName": "TT",
+      "parent": "Cold Facade",
+      "costspecification": "ZUK",
+      "color": "#BF8A48"
+    },
+    {
+      "name": "Accessories",
+      "shortName": "AC",
+      "parent": "Cold Facade",
+      "costspecification": "ZUK",
+      "color": "#955179"
+    },
+    {
+      "name": "Corners",
+      "shortName": "CN",
+      "parent": "Cold Facade",
+      "costspecification": "ZUK",
+      "color": "#388777"
+    },
+    {
+      "name": "ECO holder",
+      "shortName": "EH",
+      "parent": "Cold Facade",
+      "costspecification": "ZUK",
+      "color": "#2E2E0F"
+    },
+    {
+      "name": "Bars",
+      "shortName": "BA",
+      "parent": "Cold Facade",
+      "costspecification": "ZUK",
+      "color": "#38EDC6"
+    },
+    {
+      "name": "Natural stone",
+      "shortName": "NS",
+      "parent": "Cold Facade",
+      "costspecification": "ZUK",
+      "color": "#96114E"
+    },
+    {
+      "name": "UBE NG",
+      "shortName": "UN",
+      "parent": "Cold Facade",
+      "costspecification": "ZUK",
+      "color": "#06F96A"
+    },
+    {
+      "name": "KU accessories",
+      "shortName": "KA",
+      "parent": "Cold Facade",
+      "costspecification": "ZUK",
+      "color": "#A6BE42"
+    },
+    {
+      "name": "System UBEKA",
+      "shortName": "SU",
+      "parent": "Cold Facade",
+      "costspecification": "ZUK",
+      "color": "#F9A7FF"
+    },
+    {
+      "name": "KH 35 - SZ 20",
+      "shortName": "KH",
+      "parent": "Cold Facade",
+      "costspecification": "ZUK",
+      "color": "#B7BAA2"
+    },
+    {
+      "name": "NBK holder",
+      "shortName": "NH",
+      "parent": "Cold Facade",
+      "costspecification": "ZUK",
+      "color": "#7867B0"
+    },
+    {
+      "name": "BU2 Profile",
+      "shortName": "BU",
+      "parent": "Cold Facade",
+      "costspecification": "ZUK",
+      "color": "#0628FB"
+    },
+    {
+      "name": "Blinds",
+      "shortName": "RS",
+      "parent": "Sun protection",
+      "costspecification": "FSON",
+      "color": "#5959FF"
+    },
+    {
+      "name": "Screen",
+      "shortName": "SC",
+      "parent": "Sun protection",
+      "costspecification": "FSON",
+      "color": "#9C02B5"
+    },
+    {
+      "name": "Rigid slats",
+      "shortName": "RI",
+      "parent": "Sun protection",
+      "costspecification": "FSON",
+      "color": "#7E9FDE"
+    },
+    {
+      "name": "Movable slats",
+      "shortName": "MS",
+      "parent": "Sun protection",
+      "costspecification": "FSON",
+      "color": "#1F453A"
+    },
+    {
+      "name": "Automatic doors",
+      "shortName": "AD",
+      "parent": "Automatic elements",
+      "costspecification": "FAT",
+      "color": "#91C7FE"
+    },
+    {
+      "name": "Revolving doors",
+      "shortName": "RD",
+      "parent": "Automatic elements",
+      "costspecification": "FAT",
+      "color": "#5E00D4"
+    },
+    {
+      "name": "Seal",
+      "shortName": "SL",
+      "parent": "Assembly",
+      "costspecification": "LMAD",
+      "color": "#FF351E"
+    },
+    {
+      "name": "Sheet",
+      "shortName": "SH",
+      "parent": "Assembly",
+      "costspecification": "LMBL",
+      "color": "#F614C8"
+    },
+    {
+      "name": "Cold Facade",
+      "shortName": "CF",
+      "parent": "Assembly",
+      "costspecification": "LMKF",
+      "color": "#1B6E81"
+    },
+    {
+      "name": "Steel construction",
+      "shortName": "SC",
+      "parent": "Assembly",
+      "costspecification": "LMSB",
+      "color": "#8DDF15"
+    },
+    {
+      "name": "System element",
+      "shortName": "SE",
+      "parent": "Assembly",
+      "costspecification": "LMSE",
+      "color": "#CA05FC"
+    },
+    {
+      "name": "Others",
+      "shortName": "OT",
+      "parent": "Assembly",
+      "costspecification": "LMSO",
+      "color": "#B6936C"
+    },
+    {
+      "name": "Under construction",
+      "shortName": "UC",
+      "parent": "Assembly",
+      "costspecification": "LMUK",
+      "color": "#670101"
+    },
+    {
+      "name": "Thermal insulation",
+      "shortName": "TI",
+      "parent": "Assembly",
+      "costspecification": "LMWD",
+      "color": "#25F63C"
+    },
+    {
+      "name": "Glass",
+      "shortName": "GL",
+      "parent": "Assembly",
+      "costspecification": "LVG",
+      "color": "#44CCB8"
+    },
+    {
+      "name": "Production hall 1",
+      "shortName": "PH",
+      "parent": "Production",
+      "costspecification": "LFH1",
+      "color": "#DB0455"
+    },
+    {
+      "name": "Production hall 2",
+      "shortName": "PH",
+      "parent": "Production",
+      "costspecification": "LFH2",
+      "color": "#A1DEA8"
+    },
+    {
+      "name": "Production",
+      "shortName": "PR",
+      "parent": "Production",
+      "costspecification": "LFT",
+      "color": "#3D9C93"
+    },
+    {
+      "name": "Project management",
+      "shortName": "PM",
+      "parent": "General",
+      "costspecification": "LPL",
+      "color": "#06D9D5"
+    },
+    {
+      "name": "Technician",
+      "shortName": "TE",
+      "parent": "General",
+      "costspecification": "LTB",
+      "color": "#BF78FC"
+    },
+    {
+      "name": "Transport",
+      "shortName": "TR",
+      "parent": "General",
+      "costspecification": "LTR",
+      "color": "#F1D6BA"
+    },
+    {
+      "name": "Administration",
+      "shortName": "AD",
+      "parent": "General",
+      "costspecification": "LVW",
+      "color": "#650F5E"
+    },
+    {
+      "name": "Rectangle tube",
+      "shortName": "RT",
+      "parent": "Standard Steel",
+      "costspecification": "MSTHZ",
+      "color": "#34B167"
+    },
+    {
+      "name": "Round tube",
+      "shortName": "RR",
+      "parent": "Standard Steel",
+      "costspecification": "MSTHZ",
+      "color": "#311CD9"
+    },
+    {
+      "name": "Square tube",
+      "shortName": "ST",
+      "parent": "Standard Steel",
+      "costspecification": "MSTHZ",
+      "color": "#1E025C"
+    },
+    {
+      "name": "Square",
+      "shortName": "SQ",
+      "parent": "Standard Steel",
+      "costspecification": "MSTHZ",
+      "color": "#0211DA"
+    },
+    {
+      "name": "Flat",
+      "shortName": "FL",
+      "parent": "Standard Steel",
+      "costspecification": "MSTHZ",
+      "color": "#EA4555"
+    },
+    {
+      "name": "Rectangle tube",
+      "shortName": "RT",
+      "parent": "Standard Aluminium",
+      "costspecification": "MALHZ",
+      "color": "#5A62D5"
+    },
+    {
+      "name": "Round tube",
+      "shortName": "RR",
+      "parent": "Standard Aluminium",
+      "costspecification": "MALHZ",
+      "color": "#C8A7FE"
+    },
+    {
+      "name": "Square tube",
+      "shortName": "ST",
+      "parent": "Standard Aluminium",
+      "costspecification": "MALHZ",
+      "color": "#5BCB46"
+    },
+    {
+      "name": "Square",
+      "shortName": "SQ",
+      "parent": "Standard Aluminium",
+      "costspecification": "MALHZ",
+      "color": "#5897CD"
+    },
+    {
+      "name": "Flat",
+      "shortName": "FL",
+      "parent": "Standard Aluminium",
+      "costspecification": "MALHZ",
+      "color": "#9E7BE4"
+    },
+    {
+      "name": "Static",
+      "shortName": "STK",
+      "parent": "External service",
+      "costspecification": "FSK",
+      "color": "#BBDEE2"
+    },
+    {
+      "name": "Technical office",
+      "shortName": "TKB",
+      "parent": "General",
+      "costspecification": "LTK",
+      "color": "#1A9841"
+    }
+  ],
+  "partCostSpecifications": [
+    {
+      "name": "X",
+      "description": "Unset",
+      "discount": 0
+    },
+    {
+      "name": "XXX",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "SYS",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "ZFL",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "MALHZ",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "ZKF",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "ZSB",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "MAS",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "ZALBL",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "MUK",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "F",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "L",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "M",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "MSY",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "MZU",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "MBS",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "ZFE",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "ZTR",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "ZFA",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "ZFLGL",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "ZFLGP",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "ZFLPA",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "ZFLSO",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "ZKFAL",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "ZKFVP",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "ZKFBT",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "ZKFSO",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "ZGEL",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "ZSPR",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "MSTHZ",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "MESHZ",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "MAD",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "MWD",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "MPVC",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "ZSTBL",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "ZESTBL",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "FSON",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "FAT",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "FRWA",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "FTOR",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "FBE",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "FAU",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "FDA",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "FGT",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "FKR",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "FMG",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "FRG",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "FSTK",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "FTB",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "FTR",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "FVS",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "FWDVS",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "LDM",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "LM",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "LF",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "MSO",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "MOFBV",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "MOFS",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "MOFUK",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "ZFEAL",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "ZFEHO",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "ZFEKS",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "ZFEBE",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "ZFEGB",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "ZTRAL",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "ZTRBS",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "ZTRST",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "ZFAPR",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "ZFASG",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "ZFAEL",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "ZFAAH",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "ZFAAS",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "ZFABS",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "ZFADA",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "ZFAVD",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "ZUK",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "LMAD",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "LMBL",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "LMKF",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "LMSB",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "LMSE",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "LMSO",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "LMUK",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "LMWD",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "LVG",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "LFH1",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "LFH2",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "LFT",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "LPL",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "LTB",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "LTR",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "LVW",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "FSK",
+      "description": null,
+      "discount": 0
+    },
+    {
+      "name": "LTK",
+      "description": null,
+      "discount": 0
+    }
+  ],
+  "projectCategories": [
+    {
+      "name": "Unset"
+    },
+    {
+      "name": "Order"
+    },
+    {
+      "name": "Mounting"
+    },
+    {
+      "name": "Testing"
+    },
+    {
+      "name": "Calculation"
+    }
+  ],
+}

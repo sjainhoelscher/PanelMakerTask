@@ -1,0 +1,232 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+   <LangVersion>11.0</LangVersion>
+    <Version>0.1.1</Version>
+    <Title>PanelMaker</Title>
+    <Description>To create rectangular surface</Description>
+    <TargetExt>.rhp</TargetExt>
+    <UseWpf>true</UseWpf>
+    <Platforms>AnyCPU;x64</Platforms>
+    <Copyright>Shubham Jain</Copyright>
+    <PackageProjectUrl>www.Google.Com</PackageProjectUrl>
+    <PackageIcon></PackageIcon>
+    <Product>$(AssemblyName)</Product>
+    <Authors>$(AssemblyName)</Authors>
+	<Deterministic>False</Deterministic>
+    <BaseOutputPath>bin\</BaseOutputPath>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <AssemblyVersion>0.1.*</AssemblyVersion>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="UI\Commands\**" />
+    <Compile Remove="UI\Converters\**" />
+    <Compile Remove="UI\Fonts\**" />
+    <EmbeddedResource Remove="UI\Commands\**" />
+    <EmbeddedResource Remove="UI\Converters\**" />
+    <EmbeddedResource Remove="UI\Fonts\**" />
+    <None Remove="UI\Commands\**" />
+    <None Remove="UI\Converters\**" />
+    <None Remove="UI\Fonts\**" />
+    <Page Remove="UI\Commands\**" />
+    <Page Remove="UI\Converters\**" />
+    <Page Remove="UI\Fonts\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="config.json" />
+    <None Remove="Resources\gz.ico" />
+    <None Remove="Resources\GzGhosted.ini" />
+    <None Remove="Resources\GzObjectAxis.png" />
+    <None Remove="Resources\GzObjectExtrusion.png" />
+    <None Remove="Resources\GzObjectFrame.png" />
+    <None Remove="Resources\GzObjectGrid.png" />
+    <None Remove="Resources\GzObjectPanel.png" />
+    <None Remove="Resources\GzObjectPattern.png" />
+    <None Remove="Resources\GzObjectPlaneComposite.png" />
+    <None Remove="Resources\GzObjectSolid.png" />
+    <None Remove="Resources\GzObjectSolidNegative.png" />
+    <None Remove="Resources\GzPlainColors.ini" />
+    <None Remove="Resources\GzRendered.ini" />
+    <None Remove="Resources\GzSettings.ini" />
+    <None Remove="Resources\GzShaded.ini" />
+    <None Remove="Resources\GzTransparentRhinoNoShadows.ini" />
+    <None Remove="Resources\GzTransparentRhinoWithShadows.ini" />
+    <None Remove="Resources\HierarchyRolePart.png" />
+    <None Remove="Resources\HierarchyRolePosition.png" />
+    <None Remove="Resources\HierarchyRoleSubAssembly.png" />
+    <None Remove="Resources\HierarchyRoleUnsetRole.png" />
+    <None Remove="Resources\Image1.bmp" />
+    <None Remove="Resources\LayerStates.lay" />
+    <None Remove="Resources\LeftArrow.bmp" />
+    <None Remove="Resources\project.gh" />
+    <None Remove="Resources\regelelements.gh" />
+    <None Remove="Resources\Rhino-Options.ini" />
+    <None Remove="Resources\RightArrow.bmp" />
+    <None Remove="Resources\Save.bmp" />
+    <None Remove="Resources\Section.bmp" />
+    <None Remove="Resources\ShowHide.bmp" />
+    <None Remove="Resources\StateLockLocked.png" />
+    <None Remove="Resources\StateLockUnlocked.png" />
+    <None Remove="Resources\tag.ico" />
+    <None Remove="Resources\Template.3dm" />
+    <None Remove="Resources\Tree.png" />
+    <None Remove="Resources\UILayoutExpanders.png" />
+    <None Remove="Resources\UILayoutTabs.png" />
+    <None Remove="Resources\UIMenuERPCalc.png" />
+    <None Remove="Resources\UIMenuEuro.png" />
+    <None Remove="Resources\UIMenuGodzillaBlack.png" />
+    <None Remove="Resources\UIMenuLibrary.png" />
+    <None Remove="Resources\UIMenuPropertiesFile.png" />
+    <None Remove="Resources\UIMenuPropertiesIndividual.png" />
+    <None Remove="Resources\UIMenuPropertiesShared.png" />
+    <None Remove="Resources\UIMenuWage.png" />
+    <None Remove="Resources\Underlay.bmp" />
+    <None Remove="Resources\UpArrow.bmp" />
+    <None Remove="RhGodzilla.rui" />
+    <None Remove="UI\Images\Backgrounds\tree-bg.jpg" />
+    <None Remove="UI\Images\HelpImages\AssemblyTreeDescriptionPlaceHolder.jpg" />
+    <None Remove="UI\Images\Icons\ActionCross.png" />
+    <None Remove="UI\Images\Icons\ActionPlus.png" />
+    <None Remove="UI\Images\Icons\ActionRefresh.png" />
+    <None Remove="UI\Images\Icons\ActionTick.png" />
+    <None Remove="UI\Images\Icons\Assembly.png" />
+    <None Remove="UI\Images\Icons\cloud.ico" />
+    <None Remove="UI\Images\Icons\GodzillaBlack.ico" />
+    <None Remove="UI\Images\Icons\GzFullType.Axis.png" />
+    <None Remove="UI\Images\Icons\GzFullType.Extrusion.png" />
+    <None Remove="UI\Images\Icons\GzFullType.Frame.png" />
+    <None Remove="UI\Images\Icons\GzFullType.Grid.png" />
+    <None Remove="UI\Images\Icons\GzFullType.Panel.png" />
+    <None Remove="UI\Images\Icons\GzFullType.Pattern.png" />
+    <None Remove="UI\Images\Icons\GzFullType.RefAxis.png" />
+    <None Remove="UI\Images\Icons\GzFullType.RefPlane.png" />
+    <None Remove="UI\Images\Icons\GzFullType.Solid.png" />
+    <None Remove="UI\Images\Icons\GzFullType.SolidComposite.png" />
+    <None Remove="UI\Images\Icons\GzFullType.SolidNegative.png" />
+    <None Remove="UI\Images\Icons\GzFullType.SubFace.png" />
+    <None Remove="UI\Images\Icons\GzFullType.Unset.png" />
+    <None Remove="UI\Images\Icons\GzFullType.Varies.png" />
+    <None Remove="UI\Images\Icons\GzObjectWage.png" />
+    <None Remove="UI\Images\Icons\HierarchyRole.Part.png" />
+    <None Remove="UI\Images\Icons\HierarchyRole.Position.png" />
+    <None Remove="UI\Images\Icons\HierarchyRole.SubAssembly.png" />
+    <None Remove="UI\Images\Icons\HierarchyRole.UnsetRole.png" />
+    <None Remove="UI\Images\Icons\LevelBottom.png" />
+    <None Remove="UI\Images\Icons\LevelMiddle.png" />
+    <None Remove="UI\Images\Icons\LevelTop.png" />
+    <None Remove="UI\Images\Icons\Menu.ERPCalc.png" />
+    <None Remove="UI\Images\Icons\Menu.Euro.png" />
+    <None Remove="UI\Images\Icons\Menu.Library.png" />
+    <None Remove="UI\Images\Icons\Menu.Tree.png" />
+    <None Remove="UI\Images\Icons\NonPosition.png" />
+    <None Remove="UI\Images\Icons\PanelDino.ico" />
+    <None Remove="UI\Images\Icons\PanelDino.png" />
+    <None Remove="UI\Images\Icons\Refresh.png" />
+    <None Remove="UI\Images\Icons\SampleCsDockBar.ico" />
+    <None Remove="UI\Images\Icons\StateFull.png" />
+    <None Remove="UI\Images\Icons\StateLockLocked.png" />
+    <None Remove="UI\Images\Icons\StateLockUnlocked.png" />
+    <None Remove="UI\Images\Icons\StateNotFull.png" />
+    <None Remove="UI\Images\Icons\UILayoutExpanders.png" />
+    <None Remove="UI\Images\Icons\UILayoutTabs.png" />
+    <None Remove="UI\Images\Icons\UIMenuPropertiesFile.png" />
+    <None Remove="UI\Images\Icons\UIMenuPropertiesIndividual.png" />
+    <None Remove="UI\Images\Icons\UIMenuPropertiesShared.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\Tree.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <EmbeddedResource Include="UI\Images\Icons\PanelDino.ico" />
+    <EmbeddedResource Include="UI\Images\Icons\PanelDino.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </EmbeddedResource>
+  </ItemGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="ClosedXML" Version="0.96.0" />
+    <PackageReference Include="Dragablz" Version="0.0.3.234" />
+    <PackageReference Include="Fody" Version="6.6.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Grasshopper" Version="7.23.22282.13001" />
+    <PackageReference Include="HandyControls" Version="3.4.2" />
+    <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.1370.28" />
+    <PackageReference Include="MVDataGrid" Version="1.0.6-beta1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="NuGet.CommandLine" Version="6.3.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="PropertyChanged.Fody" Version="4.0.5" />
+    <PackageReference Include="RhinoCommon" Version="7.23.22282.13001" />
+    <PackageReference Include="squirrel.windows" Version="1.9.0" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Page Update="UI\Views\FilteringViewModel.xaml">
+      <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
+    </Page>
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  
+  <ItemGroup>
+    <None Update="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Resource Include="UI\Images\Icons\Menu.Tree.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+  
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Folder Include="UI\Images\Backgrounds\" />
+    <Folder Include="UI\Images\HelpImages\" />
+  </ItemGroup>
+  
+  <PropertyGroup Condition="$(Configuration) == 'Debug' AND $([MSBuild]::IsOSPlatform(Windows))">
+    <StartProgram>C:\Program Files\Rhino 7\System\Rhino.exe</StartProgram>
+    <StartArguments></StartArguments>
+    <StartAction>Program</StartAction>
+  </PropertyGroup>
+  
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <Optimize>False</Optimize>
+  </PropertyGroup>
+  
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Optimize>False</Optimize>
+  </PropertyGroup>
+
+</Project>
